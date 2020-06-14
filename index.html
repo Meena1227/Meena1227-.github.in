@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<title>Meena Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lola", sans-serif;}
+body, html {
+  height: 100%;
+  color: #000000;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ3aknUWcjg0IdpqM865WcQG0c8-hb1sUM4PKFacRml1AiPSya&usqp=CAU");
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ3aknUWcjg0IdpqM865WcQG0c8-hb1sUM4PKFacRml1AiPSya&usqp=CAU");
+  
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> Hello, I'm <span class="w3-hide-small">
+MEENA</span> <br> </span> <br> 
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">   <span class="w3-hide-small">Web designer</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em></em></p>
+  
+  
+                  <div>
+                   <head>
+    <link rel="styl sheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 15px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+                    <ul>
+                    <li>Name   :   Meena K </li>
+                    <li> DOB   :   27th December, 1999</li>
+                    <li>E-mail   :   meena001999@gmail.com</li>
+                    </ui>
+                    <li>I'm a web designer currently pursuing my Bachelor's in Panimalar Engineering College.
+</li>
+                    </ui>
+                  </div>
+                  <div class="label bold">Area of interest</div>
+                  <div><ul>
+                    <li>Wed Development</li>
+                    <li>Coding</li>
+                    <li>Testing</li>  
+                    <li>App development</li>  
+                    </ul>
+</div>
+                  
+  
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>PHOTO</b></p><br>
+      <img src="meena.jpg";>
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p><div class="label bold">COURSES</div>
+      <ui>
+<li>Completed ANDROID APP DEVELOPMENT course conducted by Infoziant Systems Pvt. Ltd</li>
+<li>Completed Study monk course on WEB DEVELOPMENT</li>
+<li>Completed Block Chain conducted by GUVI </li>
+</p>
+    </div>
+  </div>
+  
+<div class="w3-display-bottomright w3-container w3-text-black">
+<div class="w3-container">
+<button class="btn"><i class="fa fa-download fa-fw w3-margin-center w3-large w3-text-teal"></i><a href="meena.docx"> Download Resume</a></button>
+</div> 
+</div>
+
+
+
+<p class="w3-wide"><i class="fa fa-laptop"></i>Html</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+<p class="w3-wide"><i class="fa fa-laptop"></i>css</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:70%">70%</div>
+  </div>
+  
+<p class="w3-wide"><i class="fa fa-laptop"></i>Java Script</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:50%">50%</div>
+  </div>
+  
+  
+<p class="w3-wide"><i class="fa fa-laptop"></i>Java</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:40%">40%</div>
+  </div>
+  
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Python</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
+  </div>
+  
+  <p class="w3-wide"><i class="fa fa-laptop"></i>C</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:70%">70%</div>
+  </div>
+  
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Mobile Application Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:50%">50%</div>
+  </div><br>
+  
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Certificate</h3>
+  <p class="w3-center"><em>Study Monk <br> </em></p><br>
+
+
+<!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="mee1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="meena2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="meena3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="mee4.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt""=>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="meena5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt=>
+    </div>
+
+    
+  </div>
+</div>
+
+<div>
+
+<h3 class="w3-center">My Blog</h3>
+<h3 class="w3-center">A Blog about myself</h3>  
+<a href="https://link.medium.com/cyWV0zPOL6"><img src="data:image/jpeg;base64,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" width="600" heighy="0" class="center" alt=" ">
+ </a><br>
+
+  <br>
+<h3 class="w3-center">The Prestige- Movie Critic</h3>
+<a href="
+https://link.medium.com/GYek3MTqU6">
+<img src="https://miro.medium.com/max/1300/1*KUPkcibrify-XdprtGYNYg.jpeg" width="600" heighy="0" class="center" ></a><br>
+
+
+  <br>
+<h3 class="w3-center">My Favourite cartoon character</h3>
+<a href="
+https://link.medium.com/5gRFXyzMK6">
+<img src="https://miro.medium.com/max/1200/1*x2STMgHNabvUEGlUGkge9Q.jpeg" width="600" heighy="0" class="center" ></a>
+<br><br>
+
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">CONTACT </h3>
+  <p class="w3-center"><em></em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="vi-map"><div class="google-maps">
+<iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDD4T6QfZREyEe-69DsyyBRJTCjyiYdzUs&q=Perungattur+Tiruvannamalai+Tamil+Nadu+India&maptype=satellite&zoom=18" width="800" height="350" frameborder="0" style="border:0"></iframe>
+</div></div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 509 A, Poongan street, Perungattur, Tiruvannamalai, 604402, TamilNadu.<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 6380059012 <br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Mail ID: meena001999@gmail.com<br>
+      </div>
+      <p>
+ 
+
+<!-- Footer -->
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+
+  
+  
+  <a href="http://www.linkedin.com/in/meena-k-8a3a8b18b" class="fa fa-linkedin w3-hover-opacity"></a>
+  <a href="https://www.instagram.com/Meena_1227/" class="fa fa-instagram w3-hover-opacity"></a>
+  <a href="https://github.com/meena1227" class="fa fa-github w3-hover-opacity"></a>
+  
+  
+</footer>
+  
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
